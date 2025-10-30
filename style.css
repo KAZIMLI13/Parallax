@@ -97,14 +97,3 @@ body {
   margin-bottom: 1rem;
   text-shadow: 0 0 15px #ff00ff;
 }
-
-.neon1 { background: linear-gradient(180deg, #01000e, #050022); }
-.neon2 { background: linear-gradient(180deg, #0b001a, #140045); }
-.neon3 { background: linear-gradient(180deg, #100030, #2b005d); }
-.neon4 { background: linear-gradient(180deg, #200045, #45007a); }
-.neon5 { background: linear-gradient(180deg, #2a004d, #6b0090); }
-.neon6 { background: linear-gradient(180deg, #40005d, #8b00b5); }
-.neon7 { background: linear-gradient(180deg, #53006b, #a300c8); }
-.neon8 { background: linear-gradient(180deg, #5a0080, #b000f0); }
-.neon9 { background: linear-gradient(180deg, #6f00a0, #c800ff); }
-.neon10 { background: linear-gradient(180deg, #8c00cc, #ff00ff); }
