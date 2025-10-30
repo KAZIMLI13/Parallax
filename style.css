@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #030011;
+  color: #00ffff;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.parallax-scene {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; 
+}
+
+.layer {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  will-change: transform;
+  transform: translateY(0);
+}
+
+.layer-bg {
+  background-image: url('https://i.imgur.com/SAt9n4F.jpg');
+  z-index: 1;
+}
+
+.layer-buildings {
+  background-image: url('https://i.imgur.com/nZfEMQy.png');
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.layer-fog {
+  background-image: url('https://i.imgur.com/wyzTMSM.png');
+  z-index: 3;
+  opacity: 0.6;
+}
+
+.layer-lights {
+  background-image: url('https://i.imgur.com/h74HhSq.png');
+  z-index: 4;
+  opacity: 0.8;
+}
+
+.layer-front {
+  background-image: url('https://i.imgur.com/dXqRraB.png');
+  z-index: 5;
+  opacity: 0.9;
+}
+
+.title-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: #ff00ff;
+  text-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff, 0 0 80px #00ffff;
+  animation: pulse 3s infinite alternate;
+}
+
+@keyframes pulse {
+  from { text-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff; }
+  to { text-shadow: 0 0 40px #00ffff, 0 0 80px #ff00ff, 0 0 120px #00ffff; }
+}
+
+.section {
+  min-height: 100vh;
+  padding: 8rem 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px #ff00ff;
+}
+
+.neon1 { background: linear-gradient(180deg, #01000e, #050022); }
+.neon2 { background: linear-gradient(180deg, #0b001a, #140045); }
+.neon3 { background: linear-gradient(180deg, #100030, #2b005d); }
+.neon4 { background: linear-gradient(180deg, #200045, #45007a); }
+.neon5 { background: linear-gradient(180deg, #2a004d, #6b0090); }
+.neon6 { background: linear-gradient(180deg, #40005d, #8b00b5); }
+.neon7 { background: linear-gradient(180deg, #53006b, #a300c8); }
+.neon8 { background: linear-gradient(180deg, #5a0080, #b000f0); }
+.neon9 { background: linear-gradient(180deg, #6f00a0, #c800ff); }
+.neon10 { background: linear-gradient(180deg, #8c00cc, #ff00ff); }
