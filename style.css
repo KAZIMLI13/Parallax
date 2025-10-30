@@ -31,30 +31,30 @@ body {
 }
 
 .layer-bg {
-  background-image: url('https://i.imgur.com/SAt9n4F.jpg');
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210910/pngtree-k-aerial-photography-magic-cyberpunk-chongqing-caiyuanba-bridge-night-time-delay-image_848673.jpg');
   z-index: 1;
 }
 
 .layer-buildings {
-  background-image: url('https://i.imgur.com/nZfEMQy.png');
+  background-image: url('https://img.freepik.com/free-photo/illustration-rain-futuristic-city_23-2151406585.jpg?w=360');
   z-index: 2;
   opacity: 0.8;
 }
 
 .layer-fog {
-  background-image: url('https://i.imgur.com/wyzTMSM.png');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeS9MQ5ICTnjGgGIGoYvpFZOJeTvxsfLW7xSyjCj_viDa2-MKYKYwJMI&s=10');
   z-index: 3;
   opacity: 0.6;
 }
 
 .layer-lights {
-  background-image: url('https://i.imgur.com/h74HhSq.png');
+  background-image: url('https://img.freepik.com/free-photo/illustration-rain-futuristic-city_23-2151406577.jpg?semt=ais_hybrid&w=740&q=80');
   z-index: 4;
   opacity: 0.8;
 }
 
 .layer-front {
-  background-image: url('https://i.imgur.com/dXqRraB.png');
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20231003/pngtree-a-cyberpunk-inspired-3d-illustration-marvel-at-the-futuristic-night-cityscape-image_13519313.png');
   z-index: 5;
   opacity: 0.9;
 }
